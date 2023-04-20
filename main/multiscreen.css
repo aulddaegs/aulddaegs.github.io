@@ -289,3 +289,8 @@ body {
     font-family: 'Drafting Mono', Courier, monospace;
     font-weight: 300;
 }
+
+#displayvideoframe {
+    width: 95%;
+    height: 95%;
+}

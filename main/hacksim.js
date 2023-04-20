@@ -75,7 +75,7 @@ function displayDirectory(path){
             }else if (thing.kind == 'image'){
                 browser.innerHTML += `<button class="ui-button" onclick="displayImage(\'${thing.data}\')">🖼️ ${e}</button>`
             }else if (thing.kind == 'video'){
-                browser.innerHTML += `<button class="ui-button" onclick="displayIframe(\'${thing.data}\')">🎥 ${e}</button>`
+                browser.innerHTML += `<button class="ui-button" onclick="displayVideo(\'${thing.data}\')">🎥 ${e}</button>`
             }
         }else{
             browser.innerHTML += `<button class="ui-button" onclick="displayDirectory(\'${e}\')">📁${e}/</button>`
@@ -92,6 +92,10 @@ function displayHTML(item){
 
 function displayIframe(item){
     document.getElementById('box').innerHTML = `<iframe id="displayframe" src="${item}" frameborder="0"></iframe>`;
+}
+
+function displayVideo(item){
+    document.getElementById('box').innerHTML = `<video id="displayvideoframe" controls src="${item}"></video>`
 }
 
 function displayText(name, item){
@@ -326,6 +330,7 @@ window.displayHTML = displayHTML;
 window.displayText = displayText;
 window.displayIframe = displayIframe;
 window.displayImage = displayImage;
+window.displayVideo = displayVideo;
 
 window.feedCommand = feedCommand;
 
