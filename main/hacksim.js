@@ -128,7 +128,7 @@ function displayImage(name){
 
 function termprint(text){
     var objDiv = document.getElementById("terminal-output");
-    objDiv.innerHTML += '<p class="logline">'+text+'</p>';
+    objDiv.innerHTML += '<p class="logline">'+encodeHTML(text)+'</p>';
     objDiv.scrollTop = objDiv.scrollHeight;
 }
 
