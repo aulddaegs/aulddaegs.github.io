@@ -13,7 +13,7 @@ class Computer {
             'SHOW_HIDDEN_FILES': true,
             'ALLOW_FILE_EDITING': false,
             'SAVE_TO_CURRENT_DIR': false,
-            'ALLOW_DEV_CONSOLE': false,
+            'ALLOW_DEV_CONSOLE': true,
         };
         this.syslog = [];
     }

@@ -256,6 +256,8 @@ function runSingleCommand(cmd){
             return;
         }
         termprint(res.desc());
+    }else if (init === 'help'){
+        termprint('COMMANDS:\nls\nlistenv\nsetenv\nnetmap\npull');
     }else{
         termprint(cmd+' is not a recognised command.');
     }
