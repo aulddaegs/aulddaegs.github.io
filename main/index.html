@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multiscreen demo</title>
+    <link rel="stylesheet" href="multiscreen.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="col1">
+            <h1 id="systemtitle">NYOPERATIVSYSTEM</h1>
+            <div id="systemdesc">Remote filesystem explorer 7.1</div>
+            <div><span id="systempathhead">PATH:</span><span id="systempath"></span></div><br>
+            <div id="filebrowser">
+            </div>
+            <br>
+        </div>
+        <div id="fileviewer">
+            <div id="file">
+                <div id="box"></div>
+            </div>
+
+        </div>
+    </div>
+    <div id="terminal">
+        <div id="terminal-output"></div>
+        <input id="terminal-input">
+        <button id="terminal-button" onclick="feedCommand()">></button>
+    </div>
+    <script src="jquery-3.6.3.min.js"></script>
+    <script src="md5.js"></script>
+    <script src="computer.js" type="module"></script>
+    <script src="hacksim.js" type="module"></script>
+</body>
+</html>

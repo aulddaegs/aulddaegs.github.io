@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBCHAT</title>
+    <link rel="stylesheet" href="../libchat/libchat.css">
+</head>
+<body>
+    <div id="libchat-container">
+        <div id="libchat-server-bar">
+            <div id="libchat-name">LIBCHAT</div>
+            <div class="libchat-icon">
+                <img src="../libchat/libchat.png" alt="Libchat Logo" class="libchat-thumbnail" onclick="libchat_screen('../libchat/about.html')">
+                <span class="libchat-tooltip-text">About Libchat</span>
+            </div>
+            <div class="libchat-icon">
+                <img src="../libchat/profile.png" alt="Your Profile" class="libchat-thumbnail"  onclick="libchat_screen('../libchat/profile.html')">
+                <span class="libchat-tooltip-text">Your Profile</span>
+            </div>
+            <div class="libchat-icon">
+                <img src="../libchat/server1.png" alt="Homeless Humanities Graduates Club" class="libchat-thumbnail"  onclick="libchat_screen('../libchat/server1.html')">
+                <span class="libchat-tooltip-text">Homeless Humanities Graduates Club</span>
+            </div>
+
+         </div>
+        <div id="libchat-chat-window">
+
+        </div>
+        <script src="../main/jquery-3.6.3.min.js"></script>
+        <script>
+            function libchat_screen(src){
+                $.ajax(src, {'async': true, 'cache': false}).done((data)=>{
+                    $('#libchat-chat-window').html(data);
+                    $('#libchat-chat-window').scrollTop(0);
+                });
+            }
+            libchat_screen('../libchat/about.html')
+        </script>
+    </div>
+</body>
+</html>

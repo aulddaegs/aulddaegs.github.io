@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textedit</title>
+    <style>
+        #texteditortitle {
+            font-family: 'Megascope';
+            user-select: none;
+            letter-spacing: 0.1em;
+        }
+
+        #filename {
+            font-weight: normal;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5em;
+        }
+
+        #filepath{
+            letter-spacing: 0.1em;
+        }
+
+        #rawtext{
+            font-family: 'Drafting Mono', Courier, monospace;
+            margin-bottom: 10px;
+            font-size: 10pt;
+            margin-left: 0.2em;
+            font-weight: 300;
+        }
+
+        #savebutton, #clearbutton{
+            color: antiquewhite;
+            font-family: 'Drafting Mono', Courier, monospace;
+            background-color: lightcoral;
+            width: 9em;
+            margin: 0.5em;
+            border: outset;
+        }
+
+        #savebutton:hover, #clearbutton:hover{
+            background-color: antiquewhite;
+            color: lightcoral;
+        }
+
+        #savebutton {
+            margin-left: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="editor">
+        <h1 id="texteditortitle">TEXT EDITOR</h1>
+        <h2><span id="filename"></span><span id="editstatus"></span></h2>
+        <div id="filepath"></div><br>
+        <textarea name="rawtext" id="rawtext" cols="50" rows="10"></textarea><br>
+        <button onclick="save()" id="savebutton">Save</button><button onclick="cleartext()" id="clearbutton">Clear</button>    
+    </div>
+    <script>
+        function cleartext(){
+            document.getElementById('rawtext').value = '';
+            console.log('cleared');
+        }
+
+        function save(){
+            document.getElementById('editstatus').textContent = '';
+            var docname = document.getElementById('filename').innerHTML;
+            var data = {};
+            data[docname] = document.getElementById('rawtext').value;
+            window.postMessage({'port': 8080, 'data': data, 'origin': document.getElementById('filepath').innerHTML});
+        }
+        var ta = document.getElementById('rawtext');
+        ta.addEventListener('keydown', e => {
+            if (e.ctrlKey && e.key === 's') {
+                document.getElementById('editstatus').textContent = '';
+                e.preventDefault();
+                save();
+            }else{
+                document.getElementById('editstatus').textContent = '*';
+            }
+        });
+    </script>
+</body>
+</html>

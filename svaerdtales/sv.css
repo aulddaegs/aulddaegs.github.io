@@ -1,0 +1,94 @@
+@font-face {
+    font-family: MacondoSwashCaps;
+    src: url('../svaerdtales/fonts/macondo_swash_caps.woff2');
+}
+
+@font-face {
+    font-family: Ysabeau;
+    src: url('../svaerdtales/fonts/Ysabeau-Book.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Ysabeau;
+    src: url('../svaerdtales/fonts/Ysabeau-BookItalic.ttf');
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Ysabeau;
+    src: url('../svaerdtales/fonts/Ysabeau-BoldItalic.ttf');
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Ysabeau;
+    src: url('../svaerdtales/fonts/Ysabeau-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Ysabeau;
+    src: url('../svaerdtales/fonts/Ysabeau-Extralight.ttf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Ysabeau;
+    src: url('../svaerdtales/fonts/Ysabeau-ExtralightItalic.ttf');
+    font-weight: 200;
+    font-style: italic;
+}
+
+:root {
+    --norddarkblue: #355573;
+    --nordtable: #456583;
+    --nordlightwhite: #e8f3fc;
+    --nordlink: #a4aebd;
+}
+
+h1 {
+    font-family: MacondoSwashCaps, Times, serif;
+    font-size: 40pt;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+a {
+    color: var(--nordlink);
+}
+
+table {
+    width: 100%;
+    background-color: var(--nordtable);
+    padding: 0.5em;
+}
+
+blockquote {
+    font-weight: 100;
+    border-left: solid 1px var(--nordlightwhite);
+    padding-left: 1em;
+}
+
+#sv-container {
+    margin: auto;
+    /* max-width: min(50em, 85%); */
+    font-family: 'Ysabeau', sans-serif;
+    background-color: var(--norddarkblue);
+    color: var(--nordlightwhite);
+    font-weight: 300;
+}
+
+#file {
+    background-color: var(--norddarkblue);
+}

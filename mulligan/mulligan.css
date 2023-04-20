@@ -1,0 +1,46 @@
+@font-face {
+    font-family: SpaceGrotesk;
+    src: url('../fonts/SpaceGrotesk-Regular.ttf');
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url('../fonts/Rubik-Black.ttf');
+}
+
+#mulligan {
+    font-family: 'SpaceGrotesk', Courier, monospace;
+    background-color: white;
+    color: #b71414;
+    text-align: center;
+}
+
+#mulligan h1 {
+    color: white;
+    background-color: #b71414;
+    padding: 1em;
+    font-size: 20pt;
+    font-family: Rubik, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-weight: normal;
+}
+
+#mulligan p:hover {
+    background-color: #b71414;
+    color: white;
+    cursor: pointer;
+}
+
+#mulligan p::selection, #mulligan h1::selection{
+    color: white;
+    background-color: black;
+}
+
+#file {
+    background-color: white;
+}
+
+body {
+    background-color: #b71414;
+}

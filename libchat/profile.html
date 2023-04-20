@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile</title>
+</head>
+<body>
+    <h2>About You</h2>
+    <span class="libchat-strong">Username:</span> jaj_burner#2220<br><br>
+    <span class="libchat-strong">Joined:</span> 3 days ago<br><br>
+    <span class="libchat-strong">DM permissions:</span> Same server<br><br>
+    <span class="libchat-strong">Host Server:</span> world.libchat.io<br><br>
+    <span class="libchat-strong">Theme:</span> SolarGreen (local)<br><br>
+
+    <h2>Edit Settings</h2>
+    Enter your password to change settings:<br><br>
+    <input type="password" name="" id="libchat-password"> <span id="error-text" style="color: red"></span><br><br>
+    <button onclick="password_error()">Change Settings</button>
+    <script>
+        function password_error(){
+            $('#error-text').html('Invalid Password.')
+            $('#libchat-password').val('')
+        }
+    </script>
+</body>
+</html>

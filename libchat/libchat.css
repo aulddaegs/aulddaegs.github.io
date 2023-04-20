@@ -1,0 +1,150 @@
+:root {
+    --libchat-black: #062323;
+    --libchat-dark: #0c4747;
+    --libchat-green: #e0e6c9;
+}
+
+body {
+    background-color: var(--libchat-black);
+}
+
+#file {
+    background-color: var(--libchat-black);
+}
+
+@font-face {
+    font-family: 'Schbisted Grotesk';
+    src: url('../fonts/SchbistedGrotesk/webfonts/SchibstedGrotesk-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Schbisted Grotesk';
+    src: url('../fonts/SchbistedGrotesk/webfonts/SchibstedGrotesk-Italic.woff2');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Schbisted Grotesk';
+    src: url('../fonts/SchbistedGrotesk/webfonts/SchibstedGrotesk-Bold.woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Schbisted Grotesk';
+    src: url('../fonts/SchbistedGrotesk/webfonts/SchibstedGrotesk-BoldItalic.woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+.libchat-strong {
+    font-weight: bold;
+}
+
+#libchat-container {
+    height: 100%;
+    width: 35em;
+    max-width: 35em;
+    background-color: var(--libchat-black);
+    margin: 0;
+    color: var(--libchat-green);
+    font-size: 12pt;
+    font-family: 'Schbisted Grotesk', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+#libchat-container input, #libchat-container button {
+    font-family: inherit;
+    color: inherit;
+    background-color: var(--libchat-dark);
+    border: solid 1px var(--libchat-green);
+}
+
+#libchat-container button {
+    padding: 0.5em;
+    border-radius: 3px;
+}
+
+#libchat-container button:hover {
+    color: var(--libchat-black);
+    background-color: var(--libchat-green);
+}
+
+#libchat-server-bar {
+    min-height: 30em;
+    display: flex;
+    flex-direction: column;
+    max-width: 80px;
+    min-width: 80px;
+    flex-basis: auto;
+    background-color: var(--libchat-dark);
+    box-shadow: 0px 0px 5px var(--libchat-dark);
+    flex-grow: 2;
+}
+
+.libchat-thumbnail {
+    width: 60px;
+    height: 60px;
+    transition: all 0.05s;
+}
+
+.libchat-thumbnail:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    filter: brightness(115%);
+}
+
+.libchat-icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.libchat-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.libchat-icon .libchat-tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+
+    left: 108%;
+    user-select: none;
+}
+
+.libchat-icon:hover .libchat-tooltip-text {
+    visibility: visible;
+    cursor: pointer;
+}
+
+#libchat-name {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    font-weight: bold;
+    font-size: 11pt;
+    user-select: none;
+}
+
+#libchat-chat-window {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+

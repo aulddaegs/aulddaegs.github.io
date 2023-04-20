@@ -1,0 +1,86 @@
+:root {
+    --median-grey: #4b4b4b;
+    --median-light-grey: rgb(96, 110, 103);
+    --median-offwhite: rgb(240, 255, 247);
+    --median-highlight: #01f4a3;
+}
+
+@font-face {
+    font-family: InterVar;
+    src: url('../fonts/variable_inter.ttf');
+}
+
+.median-body img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.median-company {
+    /* background-image: linear-gradient(var(--median-highlight) 0%, white 90%); */
+    background-color: var(--median-highlight);
+    padding: 1em;
+    box-shadow: 0px 5px 2px var(--median-light-grey);
+    user-select: none;
+}
+
+.median-body .median-logo {
+    max-width: 200px;
+    margin-top: 0.3em;
+}
+
+.median-body {
+    font-family: 'InterVar', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+    background-color: var(--median-offwhite);
+}
+
+.median-body ::selection {
+    background-color: var(--median-highlight);
+}
+
+.median-article {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.median-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.median-body .median-profile-picture {
+    max-width: 60px;
+    max-height: 60px;
+    margin-right: 1em;
+}
+
+.median-user-info {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.median-username {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.median-post-length, .median-post-date{
+    color: var(--median-grey);
+}
+
+.median-post-date {
+    margin-right: 0.5em;
+    background-color: var(--median-highlight);
+}
+
+.median-body blockquote {
+    padding: 0.75em;
+    border-left: solid 3px var(--median-light-grey);
+    margin: 1em;
+}
+
+.median-body blockquote p {
+    margin: 0;
+    font-style: italic;
+}
+

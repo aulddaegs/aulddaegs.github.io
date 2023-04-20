@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+
+:root {
+    --microblit-teal: #008E5E;
+    --microblit-teal-light: #13b27d;
+    --microblit-yellow: #FFE280;
+    --microblit-yellow-light: #fff8e0;
+    --microblit-blue: #2394a0;
+    --microblit-blue-light: #3eb9c6;
+    --microblit-blue-dark: #175c64;
+    --microblit-grey: #6f7677;
+}
+
+.microblit-user-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.microblit-user-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0.5em 1em 0.5em 0.5em;
+}
+
+.microblit-user-profile-text {
+    margin: 1em 0.5em 0.5em 0.5em;
+}
+
+.microblit-user-name {
+    font-weight: 700;
+    font-size: 14pt;
+}
+
+.microblit-user-status {
+    font-size: 12pt;
+}
+
+.microblit-user-bio {
+    font-size: 12pt;
+    color: var(--microblit-grey);
+}
+
+.microblit-user-messages {
+    padding-top: 0.5em;
+}
+
+body {
+    background-color: var(--microblit-yellow);
+}
+
+#box {
+    background-color: white;
+    max-width: 95%;
+    font-family: 'Quicksand', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+}
+
+
+#microblit-logo {
+    max-width: 10em;
+    margin: 2em 0 0.5em 0;
+    transition: all 0.2s;
+}
+
+#microblit-logo:hover {
+    filter: brightness(105%);
+}
+
+.microblit-msg {
+    max-width: 85%;
+    padding: 0.75em;
+    margin: 0.5em;
+    border: var(--microblit-grey) 1.5pt none;
+    border-radius: 5pt;
+    background-color: white;
+    box-shadow: var(--microblit-grey) 0px 0px 2px;
+    transition: all 0.1s;
+}
+
+.microblit-msg:hover {
+    background-color: var(--microblit-yellow-light);
+    box-shadow: var(--microblit-grey) 0px 0px 5px;
+}
+
+.microblit-user {
+    color: var(--microblit-teal);
+    font-weight: 700;
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+.microblit-user:hover {
+    color: var(--microblit-teal);
+    text-decoration: underline;
+}
+
+.microblit-user:visited {
+    color: var(--microblit-teal);
+}
+
+a {
+    color: var(--microblit-blue);
+}
+
+a:hover{
+    color: var(--microblit-blue-light);
+}
+
+a:active {
+    color: var(--microblit-yellow);
+}
+
+a:visited {
+    color: var(--microblit-blue-dark);
+}
+
+.microblit-msg-link {
+    color: var(--microblit-teal-light);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.microblit-msg-link:hover{
+    color: var(--microblit-teal);
+}
+
+.microblit-msg-link:active {
+    color: var(--microblit-yellow);
+}
+
+.microblit-msg-link:visited {
+    color: var(--microblit-teal-light);
+}
+
+.microblit-detail {
+    color: var(--microblit-grey);
+    font-size: 10pt;
+}
+
+p {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}

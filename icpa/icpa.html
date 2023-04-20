@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICPA 2027 Emergency Report</title>
+    <link rel="stylesheet" href="../icpa/icpa.css">
+</head>
+<body>
+    <div class="icpa-interactive-story">
+        <div id="icpa-content-container">
+            <img id="icpa-content-image" src="../icpa/images/icpa_mobile_story_1.png">
+        </div>
+        <div id="icpa-background-container">
+            <img id="icpa-background-image" src="../icpa/images/icpa_mobile_story_bg.png">
+        </div>
+    </div>
+    <script>
+        function advanceSlide(){
+            slide += 1;
+            if (slide > 8){
+                slide = 1;
+            }
+            document.getElementById('icpa-content-image').src = `../icpa/images/icpa_mobile_story_${slide}.png`;
+            setTimeout(()=>{
+                document.getElementById('icpa-content-image').classList.remove('vanish');
+                hold=false;
+            }, 50);
+        }
+        var slide=1;
+        var hold=false;
+        document.getElementById('icpa-content-image').addEventListener('click', (e)=>{
+            e.preventDefault();
+            if (!hold){
+                hold=true;
+                document.getElementById('icpa-content-image').classList.add('vanish');
+                setTimeout(advanceSlide, 500);
+            }
+
+        })
+    </script>
+</body>
+
+</html>
