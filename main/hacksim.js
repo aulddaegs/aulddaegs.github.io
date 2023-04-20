@@ -3,14 +3,6 @@ import { INTERNET } from "./targets.js";
 import { encodeHTML, loadtxt } from "./util.js";
 import { CoreComputer } from "./corecomputer.js";
 
-// TODO: binary exploitation minigame
-
-// TODO: Fix DOMPurify and implement it server side
-import * as DOMPurify from './purify.min.js';
-
-// TODO: sdoc markdown editor? -> show multiple versions of the same doc
-// TODO: fileserver browser thing
-
 
 //const LOCAL_COMPUTER = new comlib.Computer('user', start_tree);
 const LOCAL_COMPUTER = CoreComputer;
