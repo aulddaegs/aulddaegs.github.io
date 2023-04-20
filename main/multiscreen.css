@@ -177,6 +177,7 @@ body {
     max-width: 80%;
     text-indent: 0.15rem;
     padding: 0.2rem;
+    word-wrap: break-word;
 }
 
 #systemdesc::selection, #systempath::selection, #systempathhead::selection{
