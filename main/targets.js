@@ -27,7 +27,7 @@ const DummyZhengzi = new comlib.BadEuroPublic('zhengzi-archive', {
 });
 
 const DummyNews = new comlib.BadHasher('7-day-newswire', {
-    'target.txt': new comlib.ComputerFile('target.txt', 'this is the news', 'text', '7day'),
+    '2604.pdf': new comlib.ComputerFile('2604.pdf', '../news/sevenday_news_2604.pdf', 'pdf', '7day'),
 }, '7day'
 );
 
