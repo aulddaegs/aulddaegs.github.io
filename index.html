@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nyoperativsystem Online Viewer</title>
-    <link rel="stylesheet" href="main/multiscreen.css">
+    <title>The Savage Computers</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="welcome-container">
-        <div id="welcome-content">
-            <img src="images/projectlogo.png" alt="The Savage Computers" style="max-width: 100%; width: 100%;">
-            <br><br>
-            <h1 id="systemtitle">NYOPERATIVSYSTEM WEB</h1>
-            <p><strong>John Aland, Jr.</strong> is sharing a drive with you: <strong>Main Backup</strong></p>
-            <p>You can:</p>
-            <ul>
-                <li>View all files</li>
-                <li>Make changes to files locally (cloud sync is not enabled)</li>
-            </ul>
-            <p>Use desktop for the best experience when viewing this drive.<p>
-            <a href="main"><button class="ui-button">View Drive</button></a>
+    <div id="content-container">
+        <div id="col1">
+            <img src="images/projectlogo.png" alt="The Savage Computers" class="projectlogo">
+        </div>
+        <div id="col2">
+            <h1>THE SAVAGE COMPUTERS</h1>    
+            <div class="hordiv"></div>
+            <p id="random-blurb">A Novel of the Contrapresent by Chris Pang</p>
+            <br>
+            <p><a href="book/index.html">Read the Book</a></p>
+            <p><a href="drive/index.html">Experience the World</a></p>
+            <p><a href="https://utilityhotbar.github.io">About the Author</a></p>
+            <br>
+        </div>
+        <div id="news-ticker">
+            Some news item
         </div>
     </div>
-
+    <script src="animate_ticker.js"></script>
 </body>
 </html>

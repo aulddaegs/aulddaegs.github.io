@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+:root {
+    --custom-dark: rgb(14, 14, 14);
+    --custom-light: rgb(242, 242, 236);
+}
+
+body {
+    background-color: var(--custom-dark);
+    color: var(--custom-light);
+    max-width: 85%;
+    margin: auto;
+    font-family: 'EB Garamond', 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+#content-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 85%;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.projectlogo {
+    display: block;
+    margin: 1em;
+    max-width: 300px;
+    filter: brightness(90%);
+}
+
+@media screen and (max-width:900px) {
+    #content-container {
+        display: block;
+    }
+
+    .projectlogo {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        margin-top: 1em;
+    }
+}
+
+
+h1 {
+    /* background-color: var(--custom-light);
+    color: var(--custom-dark); */
+    padding: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0em;
+    text-align: center;
+    margin-bottom: 0.2em;
+    letter-spacing: 3px;
+    font-family: 'Sorts Mill Goudy';
+}
+
+.hordiv {
+    border-bottom: solid 1.5px var(--custom-light);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+p {
+    padding: 0.1em;
+    padding-left: 0.3em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    text-align: center;
+    font-size: 15pt;
+}
+
+#news-ticker {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    white-space: nowrap;
+    font-family: VT323;
+    width: 100%;
+    font-size: 12.5pt;
+}
+
+a {
+    color: var(--custom-light);
+    letter-spacing: 2px;
+}
+
+a:hover {
+    background-color: var(--custom-light);
+    color: var(--custom-dark);
+}
+
+#random-blurb {
+    font-style: italic;
+}
+
+#random-blurb:hover {
+    background-color: var(--custom-light);
+    color: var(--custom-dark);
+    cursor: grab;
+    user-select: none;
+}
+
+#random-blurb:active {
+    cursor: grabbing;
+}
