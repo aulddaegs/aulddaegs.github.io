@@ -8,6 +8,7 @@
     --custom-highlight: rgb(199, 86, 0);
     --custom-darkhighlight: rgb(133, 58, 1);
 }
+
 body {
     background-color: var(--custom-cream);
     color: var(--custom-dark);
@@ -48,7 +49,7 @@ h1 {
 @media screen and (max-width: 900px) {
     .book-content {
         max-width: 100%;
-        font-size: 12pt;
+        font-size: 12.5pt;
     }
 
     h1 {
@@ -63,6 +64,7 @@ h1 {
     margin: auto;
     width: 75%;
     text-align: center;
+    border-collapse: collapse;
 }
 
 #toc-table td {
@@ -110,3 +112,9 @@ a:hover {
     font-style: italic;
     margin: 1em;
 }
+
+.toc-sous-item, .toc-sur-item {
+    border-top: solid 1px var(--custom-dark);
+    border-bottom: solid 1px var(--custom-dark);
+}
+
