@@ -1,5 +1,5 @@
 A Psalm for the Dying
-*A poem by the anonymous writer P. K. W, published as a video set to footage of various natural disasters and civil wars.*
+*A poem by the anonymous writer “P. K. W”, published as a video set to footage of various natural disasters and civil wars.*
 
 **Voice 1:**
 Time

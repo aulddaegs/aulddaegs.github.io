@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
+@font-face {
+    font-family: 'QIJIC';
+    src: url('fonts/qiji-combo.ttf');
+}
 :root {
     --custom-cream: rgb(227, 215, 189);
     --custom-dark: rgb(41, 18, 4);
@@ -19,7 +25,7 @@ body {
     font-size: 14pt;
 }
 
-b {
+b, strong {
     font-weight: 600;
 }
 
@@ -118,3 +124,7 @@ a:hover {
     border-bottom: solid 1px var(--custom-dark);
 }
 
+chinese {
+    font-size: 18pt;
+    font-family: 'QIJIC', 'BIZ UDPMincho', 'Times New Roman', Times, serif;
+}
