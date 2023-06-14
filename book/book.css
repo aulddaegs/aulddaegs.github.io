@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
 @font-face {
     font-family: 'QIJIC';
     src: url('fonts/qiji-combo.ttf');
@@ -129,4 +131,18 @@ a:hover {
 
 chinese {
     font-family: 'Zen Old Mincho', 'BIZ UDPMincho', 'Times New Roman', Times, serif;
+}
+
+pre {
+    white-space: pre-line;
+}
+code {
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+blockquote {
+    border-left: solid 2px var(--custom-dark);
+    padding-left: 20px;
 }
