@@ -1,3 +1,5 @@
+// News ticker
+
 ticker_text = `
 CEO claims that new “AI advisory system” was influenced by a malicious prompt from a former employee, led to decision to fire key marketing team
 
@@ -83,7 +85,7 @@ window.setTimeout(()=>{
     }, 10);
 }, 100)
 
-
+// Changing the tagline
 
 random_blurbs = ['Accept No Substitutes', 'A Novel of the Contrapresent by Chris Pang', '100% synthetic textual substances used', 'May cause allergies', 'Liber Syncretismus', 'A Lusus Ingenii', 'There is light at the end of the tunnel', 'Updated Every Week (Optimistic Projection)!'];
 
@@ -92,3 +94,20 @@ unused_blurbs = [];
 unused_blurbs = unused_blurbs.concat(random_blurbs);
 
 document.getElementById('random-blurb').onclick = ()=>{r = Math.floor(Math.random()*unused_blurbs.length);document.getElementById('random-blurb').innerHTML = unused_blurbs[r]; unused_blurbs.splice(r,1);if (unused_blurbs.length == 0){unused_blurbs = unused_blurbs.concat(random_blurbs);}};
+
+// Dos mode button
+
+FLIPPED_DARK = false;
+document.getElementById('dosbutton').onclick = ()=>{
+    if (!FLIPPED_DARK){
+        document.documentElement.style.setProperty('--custom-dark', 'rgb(0, 71, 171)');
+        document.body.style.fontFamily = "'VT323', 'Courier New', Courier, monospace";
+        document.getElementById('projectlogo').style.filter = 'sepia(50%)';
+        FLIPPED_DARK = true;
+    }else{
+        document.documentElement.style.setProperty('--custom-dark', 'rgb(14, 14, 14)');
+        document.body.style.fontFamily = "'EB Garamond', 'Times New Roman', Times, serif";
+        document.getElementById('projectlogo').style.filter = 'none';
+        FLIPPED_DARK = false;
+    }
+}

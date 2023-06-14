@@ -21,27 +21,20 @@ body {
     margin: auto;
     max-width: 85%;
     align-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
 
-.projectlogo {
+#projectlogo {
     display: block;
     margin: 1em;
-    max-width: 300px;
+    max-width: 325px;
     filter: brightness(90%);
 }
 
-@media screen and (max-width:900px) {
-    #content-container {
-        display: block;
-    }
-
-    .projectlogo {
-        display: block;
-        margin: auto;
-        max-width: 100%;
-        margin-top: 1em;
-    }
+#col1 {
+    background-color: var(--custom-light);
+    margin: 1em;
 }
 
 
@@ -79,8 +72,9 @@ p {
     overflow-x: hidden;
     white-space: nowrap;
     font-family: VT323;
-    width: 100%;
+    width: 90%;
     font-size: 12.5pt;
+    margin: auto;
 }
 
 a {
@@ -106,4 +100,46 @@ a:hover {
 
 #random-blurb:active {
     cursor: grabbing;
+}
+
+#dosbutton {
+    position: fixed;
+    left: 30px;
+    top: 15px;
+    background-color: rgb(0, 71, 171);
+    border: solid 3px var(--custom-light);
+    padding-left: 8px;
+    padding-right: 8px;
+    color: var(--custom-light);
+    font-family: 'VT323', 'Courier New', Courier, monospace;
+    font-size: 16pt;
+}
+
+#dosbutton:hover {
+    background-color: var(--custom-light);
+    color: rgb(0, 106, 255);
+    cursor: pointer;
+}
+
+#dosbutton:active {
+    background-color: var(--custom-light);
+    color: var(--custom-light);
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    #content-container {
+        display: block;
+    }
+
+    #projectlogo {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        margin-top: 1em;
+    }
+
+    #dosbutton {
+        left: 15px;
+    }
 }
