@@ -1,4 +1,4 @@
-WELTSCHMERTZ (Dunn)
+WELTSCHMERZ (Dunn)
 I find out what a CI is two days later on Friday, when we’re called to stand in a circle around the centre of the main hall, all fifty or sixty of us from both floors of the Group building. Simon’s cheery demeanour has evaporated, and he looks like he’s about to attend a funeral. There’s a hoarse manner in the way he fidgets with his hands.
 
 “Right. Continuous integration.” His voice also sounds hoarse, like he hasn’t been sleeping. I can’t see his eyes to tell for sure. “Let’s start with the conversion enclave.”
