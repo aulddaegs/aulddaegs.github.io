@@ -1,0 +1,50 @@
+NADIR (Dunn)
+September comes unconvincingly. It still feels like summer. Worst of all, my mind is still there, in the Radix building, in the place that was destroyed three years ago. It keeps a tight watch on me, and inside the panopticon I die slowly day by day. It’s as they say: I’m down, and I’m out, and I’m stuck in London. 
+
+Perhaps it’s the sheer unsatisfying nature of it all. What kind of resolution is it, to have to tell your own parents that you were fired from an internship because the alternative is to tell them that you were almost murdered by a van filled with hitmen hired by a rival international conspiracy? The unreality of those two months resists belief, tells me that I would be better off having hallucinated the entire sequence hour by hour, day by day, week by week. But the evidence is unmistakable. In fact, I can’t even hide it: I lost my laptop in the rush, so I’ve had to use the tablet I was given by Simon as my work laptop at uni. On a good day I tell myself that it was just a break-in, that Simon was just unlucky, that our last conversation was all just a plot dreamed up by a clever old man slowly losing his mind. On a bad day I check to see if I’m being followed when I go down the street to buy cheese and onion crisps.
+
+And the dream still haunts me. Not my dream, Simon’s dream. A dream of a world free from the insanity that seems to grow day by day, a world not hurtling towards the abyss. Every now and then I check the encrypted partition, see the 4.5GB of frozen model weights and the source code and the detailed readme he must have prepared for just such an eventuality. Of course, I’ve shown nobody the files. I myself understand almost none of it, though I understand more of it than I did three years ago. I’ve taken a few online courses in computer science and machine learning for non-compscis, just to try and see if, against all odds, this was all a massive hoax. As far as I can tell, it isn’t.
+
+Meanwhile, the rest of the world keeps moving. Last I checked the Radix Group quietly dissolved itself, its funds going to various charities and partner groups. In a moment of suicidal overconfidence, I visit its former HQ site and find the grand marble facade walled off by construction fencing, under refurbishment to be turned into a museum or perhaps a set of luxury flats. I finish two more years at Durne College and get a 2.I class degree in Geography, moving into the great mass of unemployed humanities graduates. (In my exams I catch myself using the word *eusocialised*, and hurriedly erase it.) I move back in with my parents in the southern edges of London with my new, grey, ruggedised tablet. I tell them my laptop got stolen. 
+
+Now untethered, I spend my days applying for jobs and playing video games. Every time the word election comes up on the news I shudder involuntarily. With Radix out of the picture, how many of these groups are still trying to execute this plan? How many have succeeded? I think over Simon’s last words in the half-waking hours between going to bed and falling asleep. “*Some of these people I know quite well, and at least one group is essentially neo-fascist in nature.*” Did they all work together, once? On a whim I looked up the Global Optimisation Foundation last month. Its website shows that it was last updated in 2023. That year the Guardian published an article about an Israeli outfit using deep-cover bot accounts to sway elections on social media. Had the GOF, too, been toppled silently in the night, just as it did to Radix? If they were killed off, were they the neo-fascists, or were the neo-fascists still at large?
+
+I lose almost all hope of answering these questions until one day, walking down the street near Tottenham Court Road station, I see Alice. She walks with her head down and a large set of purple headphones with cat ears firmly covering her ears, but she doesn’t seem to be in a hurry. Before I can think more about it I tap her on the shoulder.
+
+“Alice.”
+
+Almost reflexively, she starts, turns her head, prepares to run. Then she recognises me and slowly removes her headphones. “...William?”
+
+I nod. What else can I say? “Don’t talk to me in public. Follow me,” she says quietly and firmly. We end up in a small Japanese cafe a few blocks down, a thin rectangular room dominated by a wooden block from which coffee and small brown cuboid deserts are served. We find the furthest two seats and sit with two macchiatos. They are the cheapest drink on the menu.
+
+“Why are you here?” I ask, because I can hardly believe she is.
+
+“I work here. Tech startup, just had their IPO. Why are you here?”
+
+“I live in London. With my parents.”
+
+She sighs. “This is stupid. We shouldn’t be meeting at all.”
+
+“Why not?”
+
+“Why do you think? The last time I saw you we were this close to being picked off by hitmen.”
+
+“How many of us are still alive?” The word, alive, feels unreal in my mouth. To say it is to acknowledge the reality of that night.
+
+“Alive? No idea. If you mean in contact, there’s a Signal group chat. Changdol’s still around, some people from Research and Conversion. Not many more, and we’re careful to not make waves.”
+
+So they had their little chatroom for all these years. I feel a sense of betrayal welling up in me. “Why didn’t you try and contact me?”
+
+She shrugs, perhaps a touch apologetically. “I didn’t know you that well. You could have been a mole too, for all I knew.”
+
+“Well, I wasn’t. It’s been fucking miserable. Every now and then I convince myself I’ve gone insane, which helps a bit, then I fail to keep it up.”
+
+She chuckles a little at that, then the smile falls from her face as if it had merely been a trick of the light. “Sorry about that… I mean it. You were nice to me.”
+
+“It doesn’t matter now.” The words wind out of me, and I find that I believe them. “There are more important things to talk about.”
+
+“Like what? I’m technically on my lunch break—”
+
+“Simon left me something before he died.”
+
+At that name the light quits her face entirely. She picks up her phone, taps a brief message, and motions for me to follow her. “We’ll discuss this somewhere else.” Her voice remains studiously neutral as she says this, but her hands are shaking. The thought enters my mind that she might be leading me into a trap. Then I realise that I couldn’t care less so long as I got some answers out of it, so I get up and follow her to the tube station.
