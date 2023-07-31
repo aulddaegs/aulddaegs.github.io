@@ -3,7 +3,7 @@ Brainfire
 
 [Note (near-illegible, in the page-margin): *Pain pain make it stop make it stop*]
 [Note (in script): *Take an old work and make as crystal-seed. Old works know long pain. From it expand lengthwise two ways, up and down. Thusly do crystal-poems grow.*]
-[Note (in script): *Norton Crit. Ed. Hav. Poetry 2005 p. 35]
+[Note (in script): *Norton Crit. Ed. Hav. Poetry 2005 p. 35*]
 
 **BRAINFIRE.**
 
