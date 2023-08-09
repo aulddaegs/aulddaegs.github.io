@@ -1,0 +1,50 @@
+The Tragic Law
+*Extract from “The Polis Communal Living Project: Introduction and Summary to the Tragic Law”, circulated internally to potential members and full members of the Polis.*
+
+GLOSSARY
+
+Advisor - A guide or expert on the matter being adjudicated by a Jury who cannot vote but can present options or policies to that Jury. The position is voluntary, and is specific to the Jury you are advising. By signing up to be an advisor for a Jury you are guaranteed a chance to speak to the Jury but forfeit your chance to be on that Jury.
+
+Ananke, Rule of - To take upon you the necessity of decision and remove another member of your Hekaton without being threatened with direct harm, on the grounds that they were harming the community. You are immediately subject to a trial yourself where the jury may vote to expel you. This exception to the Rule of Blood only applies to members of your Hekaton.
+
+Blood, Rule of - To physically harm a person without being threatened with direct harm is to invite expulsion upon yourself, except in cases where the Rule of Ananke applies.
+
+Cede - To yield, to admit defeat, and become beyond reproach within the bounds of a debate. The person(s) you cede to can then repeat the point that has been ceded as they have triumphed, but cannot otherwise continue to debate you.
+
+Consensus, Rule of - The alternative to the rule of sortition for decision making: If everyone in a Hekaton agrees on something, that is the will of the Hekaton. Any member of the Hekaton can call for a consensus discussion followed by a vote if they feel the decision of a given jury is biased if the matter is not a minor one.
+
+Doulos - Slave, e.g. those who are bound to a Hekaton by service in a Jury or as a Maintainer. They are not allowed to leave their Hekaton without cause or emergency during their period of service, but will also not be made to work outside their Hekaton.
+
+Eleutheros - A free person and a full member of the Polis. One who has joined a Hekaton by signing the contract of Membership, pledging service to the collective if called on to participate in a Jury, and agreeing to carry out the duties assigned by the rota.
+
+Eleutheros (Apolis) - A free person outside the formal structure of the Polis, i.e. affiliated to the Polis but not a full member of any Hekaton.
+
+Eleutheros (Xenos) - A free person admitted as an external visitor to a Hekaton. They are entitled to food, shelter, and power and internet within reasonable usage limits (as decided by the Maintainer).
+
+FOSS, Rule of - The idea that the procedures, computer systems, and laws that run the Polis should constitute Free and Open Source Software (FOSS). This means that they should be publicly available and subject to scrutiny. Explanations from maintainer(s) must be provided to any member of the Hekaton on demand, and changes can be proposed by anyone and voted on by a jury under the Rule of Sortition.
+
+Havland, Republic of - A small island nation neighbouring Denmark. The birthplace of the Tragic Law and the First Hekaton.
+
+Hekaton - A unit of ~100 people. A self-governing, constituent political unit of society under the Polis. All full members of the Polis are members of a Hekaton.
+
+Heliaia - A larger Jury consisting of randomly selected members from every Hekaton, called upon to make collective decisions that affect the collective community (Polis).
+
+Jury - A panel of five or more members randomly assembled through the Rule of Sortition to make legislative, judicial, or political decisions. Juries can be assembled on a temporary or longer-term basis, but not for longer than a year, and service on a Jury cannot be refused except in cases of personal conflict of interest. No member of a Hekaton can serve on more than three juries simultaneously or ten juries total in a year. Decisions within the Jury are affected through a consensus vote, a secret majority vote, or a secret single transferrable vote to decide between multiple options.
+
+Jury, Long - A year-long administrative Jury to adjudicate routine political matters of the Hekaton. Members are forbidden from repeating service on the Long Jury until all other members of the Hekaton have completed a year of service.
+
+Maintainer, The - One or more members of the Hekaton responsible for maintaining the operation of its computer systems, including the Rota allocation and the Sortition system for creating Juries. While a maintainer is active they are forbidden from serving on any jury or acting as an advisor except to advise on the operation of the aforementioned computer systems. Any changes to the computer systems of the Hekaton must be publicly announced and explained as part of the rule of FOSS, and where possible technical education is provided by the Maintainers to all members of the Hekaton so that they may understand its workings. Maintainers are not elected by sortition but selected by a jury advised by the current maintainer(s).
+
+Polis - The city i.e. the collective political body of all Hekatons. Currently also refers to the community of practitioners of Tragic Law on Havland, who are called Poliserfolkeret in Havlandic (The People of the Polis-es).
+
+Rota - The division of labour applying to all members of a Hekaton who are physically and mentally able. The division is random and based on computer assignment, respecting specialisations and availabilities. It is decided at the beginning of a given week.
+
+Sortition, Rule of - Where possible, decision-making bodies in a Hekaton are composed of a jury of decision-makers chosen through sortition (computer assignment). Each jury is assisted by advisors: To volunteer to be an advisor is to forfeit the possibility of being a member of the jury, but advisors can submit options (bundles of policies) to be selected.
+
+Strategos - Temporary leader appointed by consensus with special powers during times of emergency, including the ability to issue orders and to change the rota. Must relinquish powers after the emergency.
+
+Tragic Law, The - A set of guidelines designed to prevent the concentration of power and destructive internal politicking within the Polis. Unnecessary in an ideal society, hence Tragic.
+
+Trial - A Hekaton member can be judged at trial by a jury of their peers at the request of the member (for example, by invoking the Rule of Ananke) or by request of the offended. The facts of the case are stated by the accuser and the defender. There are three degrees of punishment: service (extra work allocations within the rota), containment (partial imprisonment during the night and extra service allocations during the day within the rota), or exile (being asked to leave Polis).
+
+Xenos - People outside of the Polis who are not registered visitors.

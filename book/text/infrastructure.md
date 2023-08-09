@@ -1,0 +1,36 @@
+INFRASTRUCTURE (Alice)
+I find Poul first as a light drizzle starts up again. He seems to spend most of the day in a somewhat smaller house the others have nicknamed “the Slot”, containing what I am told is several storage lockers’ worth of imported electronic equipment, hard drives, and servers. The reinforced steel door to the building, like most doors in Hekaton one, isn’t locked, but I knock first anyways. There’s a jerk, a shout in some language I don’t understand, and then a series of horrible clanging noises that make me reflexively step back. A long, pregnant moment of silence follows, before a gruff voice yells “come in!”
+
+The interior of the Slot is dominated by three walls of shelves, containing a mixture of RAID arrays, networking equipment, server racks, and what seems like a hodgepodge of spare parts and repair tools. What was already a fairly small living space is turned into a college dorm-sized bunker hemmed in on all sides by beeping, clacking technology. At the end of the room, a massive three-screen monitor is set up with live network statistics and data streaming in, and as I walk in I can see Poul’s back turned to me as he reshelves a Raspberry Pi in a metal case that had clearly fallen down and taken a bunch of routers with it. All in all, it’s a lot more tech than I expected out of a commune supposedly based on 5th century Athenian democracy. Having gently nestled the single-board computer back into its cradle of wires and brackets, Poul turns around. Blue eyes, a strained, pallid face, and a baggy Metallica T-shirt make him seem more at home in some cyberpunk city than a farming settlement. It’s also boiling in the room despite the work of three massive electric fans.
+
+Poul nods at me. “You’re one of the visitors, aren’t you?”
+
+“Yeah.”
+
+“Sorry about that, I was trying to adjust the Pi-Hole setup when you knocked.”
+
+I gesture around him at the room. “This is… a *lot* of tech.”
+
+He shrugs. “We’re already interpreting the fire code extremely liberally for this type of house and it’s still not nearly enough. I’m networking 300 people in three different villages on an island whose internet infrastructure still belongs in the modem era, and the nearest parts store is three hours away. What’s worse is that the island has its own idiosyncratic set of tech standards from the 80s that they’ve never bothered fully ridding themselves of, so half the parts are the wrong specifications. When we finish refurbishing the satellite dish setup here it’ll be even more tech, right now the other two Hekatons are taking the brunt of the network load. I’m glad they bought in Fatima to help with this stuff. We need more qualified people who understand networks, even if she’s more on the theoretical side.”
+
+“Where does the power come from? The solar panels?”
+
+At that he gives an incredulous laugh. “You’re kidding me. The solar panels were donated by a VC vision fund that had no idea that it rains here half the time and is overcast the other half. They’re basically useless. Infrastructure is hard—We have gas generators for a reason, and Jens is lobbying the government to extend electricity infrastructure over here.” He chuckles. “Mind you, they’re probably less annoyed about that than about the amount of trans people in this commune, but they can’t do much about that.”
+
+“This is… really not giving strong self-sufficiency vibes. I thought this was some kind of experiment for ways of alternative living, a new story for how we can adapt to a post-climate-change world and all that.”
+
+He gives me a harsh sort of scrutinising look, as if he’s sizing me up to be scrapped for parts, identifying what can be salvaged and what can’t. “You’ve been talking to Jens too much, haven’t you?”
+
+“What do you mean?”
+
+Poul shakes his head. “Stories are good and all, but he’s in way over his head with that mythos stuff. This is the real world, material factors still dominate above any ideological or cultural concerns. Call me a structuralist all you want, but if we don’t have food we starve to death even if our decision making systems are perfectly egalitarian.”
+
+“That seems… somewhat pessimistic.”
+
+Poul walks over to where I’m standing and points at one of the routers on the steel shelf, its indicator lights flashing furiously every second. “You know why we need all this infrastructure? Polis’ primary income comes from members performing remote software engineering contract work. Yes, income. We need to import a lot of goods and resources—food, tools, materials, electrical components, chemicals, that sort of stuff—to keep this place running, not to mention paying the contractors to build the actual houses and lay the pipes. The grey-water filtering and composting setup doesn’t work yet, so we also need to pay for bio-waste disposal at least twice per month, but we’ve cut down non-bio waste quite significantly so that’s good. Then, of course, there’s fuel and power, and all the maintenance an electrical grid requires. Don’t get me wrong, I love it here, and the way they’ve worked out the governance problem is really clever, but this isn’t paradise on earth.”
+
+“Right.”
+
+One of the monitors flashes something, and Poul immediately crosses the tiny room in two large strides to check. “Shit, I think one of the virtual load balancers just went down.” Having said that, he sits down and just starts typing, as if I’m simply not there in the room. 
+
+With a stiff shove at the reinforced door I let myself out—the rain’s gotten worse outside.
