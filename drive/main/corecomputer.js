@@ -55,7 +55,7 @@ const CORE_TREE = {
         },
         'estimativa': {
             'legacy': {
-                'ontoeconomics_aland.sdoc': new comlib.ComputerFile('ontoeconomics_aland.sdoc', '../ontoeconomics/index.html', 'web', 'jaland'),
+                // 'ontoeconomics_aland.sdoc': new comlib.ComputerFile('ontoeconomics_aland.sdoc', '../ontoeconomics/index.html', 'web', 'jaland'),
                 'notes_havlandic_tongue.pdf': new comlib.ComputerFile('notes_havlandic_tongue.pdf', '../pdfs/notes_havlandic_tongue.pdf', 'pdf', 'jaland'),
                 'dis_manibus.pdf': new comlib.ComputerFile('dis_manibus.pdf', '../pdfs/dis_manibus.pdf', 'pdf', 'jaland'),
                 'jal23_scan_geofaclib1.png': new comlib.ComputerFile('jal23_scan_geofaclib1.png', '../images/poesyannotated.png', 'image', 'jalandjr'),
